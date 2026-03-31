@@ -1,0 +1,76 @@
+/* Home page only styling */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+} 
+
+/* Navbar (same structure but styled differently) */
+nav {
+    background: linear-gradient(90deg, #0f87c7, #ee0979);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 30px;
+}
+
+nav h2 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 25px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hero section */
+.container {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+                url('shop.jpg');
+    background-size: cover;
+    background-position: center;
+
+    color: white;
+    text-align: center;
+}
+
+.container h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.container p {
+    font-size: 20px;
+}
+
+/* Button */
+.btn {
+    margin-top: 20px;
+    padding: 12px 25px;
+    background: #ff6a00;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #ee0979;
+}
